@@ -9,6 +9,9 @@ module.exports = {
     require('cssstats'),
     require('postcss-discard-comments'),
     require('autoprefixer'),
-    require('postcss-reporter')
+    require('postcss-reporter'),
+    require('postcss-prefixer')({
+      prefix: 'u-'
+    }),
   ]
 }
