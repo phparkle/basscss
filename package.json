@@ -1,6 +1,6 @@
 {
   "name": "@phparkle/basscss",
-  "version": "8.1.2",
+  "version": "8.1.3",
   "description": "Low-level CSS toolkit",
   "style": "css/basscss-important.css",
   "main": "css/basscss-important.css",
