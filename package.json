@@ -2,8 +2,8 @@
   "name": "@phparkle/basscss",
   "version": "8.1.2",
   "description": "Low-level CSS toolkit",
-  "style": "css/basscss.css",
-  "main": "css/basscss.css",
+  "style": "css/basscss-important.css",
+  "main": "css/basscss-important.css",
   "scripts": {
     "build": "postcss src/basscss.css -d css --config postcss.config.js",
     "minify": "postcss css/basscss.css -u cssnano -o css/basscss.min.css --no-map",
